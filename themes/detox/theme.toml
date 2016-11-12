@@ -4,7 +4,7 @@ licenselink = "https://github.com/allnightgrocery/hugo-theme-blueberry-detox/blo
 description = "Detox is a beautiful theme, originally designed by Jordan Bowman (@jrdnbwmn)."
 homepage = "https://github.com/allnightgrocery/hugo-theme-blueberry-detox"
 tags = ["blog", "minimal", "ghost", "white"]
-features = ["blog", "disqus", "google analytics", "pagination", "rss", "sharing options"]
+features = ["blog", "google analytics", "rss", "sharing options"]
 min_version = 0.14
 
 [author]

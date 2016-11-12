@@ -9,14 +9,5 @@
     </section>
 
     <footer class="post-footer">
-        <span>
-            {{ if .Site.Params.disqusShortname }}
-            <a href="{{ .Permalink }}#comments"><i class="fa fa-comment"></i> Comments</a>
-            {{ end }}
-            {{ with.Params.tags }}
-            	&nbsp;&nbsp;<i class="fa fa-tag"></i>
-            	{{ delimit  . ", " }}
-            {{ end }}
-        </span>
     </footer>
 </article>
