@@ -13,8 +13,11 @@
 <main class="content" role="main">
 	<div class="container">
 	<p>
-Hello! I'm Julia. I blog at <a class="normallink" href="https://jvns.ca">jvns.ca</a>. Here are some drawings about programming I've made. There's an <a href="https://drawings.jvns.ca/index.xml" class="normallink">RSS feed</a>.
+Hello! I'm Julia. I blog at <a class="normallink" href="https://jvns.ca">jvns.ca</a>. Here are some drawings about programming I've made. There's an <a href="https://drawings.jvns.ca/index.xml" class="normallink">RSS feed</a>
+
+<p>I've written a couple of programming zines which you can find at <a class="normallink" href="https://jvns.ca/zines">jvns.ca/zines</a>.
 </p>
+
 	{{ range .Data.Pages }}
 		{{ .Render "li" }}
 	{{ end }}
