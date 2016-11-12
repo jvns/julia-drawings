@@ -919,6 +919,8 @@ article.li {
 
 
 div.img {
+	width: 300px;
+	height: 300px;
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
