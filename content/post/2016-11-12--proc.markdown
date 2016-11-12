@@ -1,0 +1,7 @@
+---
+title: "/proc"
+date: 2016-11-12T12:07:24Z
+url: /proc/
+thumbnail: /drawings/thumbnails/proc.png
+---
+<a href='/drawings/proc.svg'><img src='/drawings/proc.png'></a>

@@ -64,7 +64,7 @@ task :new_post, :title do |t, args|
     post.puts "url: /#{image_file}/"
     post.puts "thumbnail: /drawings/thumbnails/#{image_file}.png"
     post.puts "---"
-    post.puts "<a href='/drawings/#{image_file}'.svg'><img src='/drawings/#{image_file}.png'></a>"
+    post.puts "<a href='/drawings/#{image_file}.svg'><img src='/drawings/#{image_file}.png'></a>"
   end
 end
 
