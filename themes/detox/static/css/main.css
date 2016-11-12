@@ -768,6 +768,12 @@ hr {
         margin-bottom: 1em !important
     }
 }
+@media (max-width: 600px) {
+.blog-title {
+    font-size: 2em !important;
+}
+}
+
 .blog-title {
     text-transform: uppercase;
     letter-spacing: 6px;
