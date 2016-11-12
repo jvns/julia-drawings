@@ -81,13 +81,11 @@ end
 desc "Default deploy task"
 task :deploy do
   Rake::Task["build"].execute
-  system "chmod 664 static/images/*"
-  system "chmod 777 static/images/drawings"
-  system "chmod 777 static/images/rust-talk"
-  system "chmod 777 static/images/stl-talk"
+  system "chmod 664 static/drawings/*"
+  system "chmod 755 static/drawings/thumbnails"
   Rake::Task["#{deploy_default}"].execute
   puts "Clearing Cloudflare cache"
-  system "bash scripts/cloudflare_clear_cache.sh"
+  system "bash ../homepage/scripts/cloudflare_clear_cache.sh"
 end
 
 desc "Deploy website via rsync"
