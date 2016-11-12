@@ -1,13 +1,10 @@
 <article class="li {{ .Type }}">
-    <header class="post-header">
-        <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <p class="post-time"><time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "January 2, 2006" }}</time></p>
-    </header>
-    
-    <section class="post-excerpt">
-        <p>{{ .Summary }}</p>
-    </section>
 
-    <footer class="post-footer">
-    </footer>
+	<div class="img">
+	  <a target="_blank" href="{{.Permalink}}">
+	    <img src="{{.Params.thumbnail}}" alt="{{.Title}}" width="300" height="200">
+	  </a>
+	  <div class="desc">{{ .Title }}</div>
+	</div>
+
 </article>

@@ -11,7 +11,7 @@
 {{ partial "header.html" . }}
 <main class="content" role="main">
 	<div class="container">
-	{{ range .Paginator.Pages }}
+	{{ range .Data.Pages }}
 		{{ .Render "li" }}
 	{{ end }}
 	</div>
