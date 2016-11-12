@@ -48,11 +48,8 @@ end
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
 task :new_post, :title do |t, args|
-  if args.title
-    title = args.title
-  else
-    title = get_stdin("Enter a title for your post: ")
-  end
+  title =  get_stdin("Enter a title for your post: ")
+  image_file =  get_stdin("Filename for your image: ")
   raise "### You haven't set anything up yet. First run `rake install` to set up an Octopress theme." unless File.directory?(source_dir)
   mkdir_p "#{source_dir}/#{posts_dir}"
   filename = "#{source_dir}/#{posts_dir}/#{Time.now.strftime('%Y-%m-%d')}-#{to_url(title)}.#{new_post_ext}"
@@ -64,10 +61,10 @@ task :new_post, :title do |t, args|
     post.puts "---"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%dT%H:%M:%SZ')}"
-    post.puts "draft: true"
-    post.puts "url: /#{to_url(title)}/"
-    post.puts "categories: []"
+    post.puts "url: /#{image_file}/"
+    post.puts "thumbnail: /drawings/thumbnails/#{image_file}.png"
     post.puts "---"
+    post.puts "<a href='/drawings/#{image_file}'.svg'><img src='/drawings/#{image_file}.png'></a>"
   end
 end
 

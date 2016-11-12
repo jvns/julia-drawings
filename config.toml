@@ -1,4 +1,4 @@
-baseurl = "http://drawingsbyjulia.nfshost.com/"
+baseurl = "https://drawings.jvns.ca"
 title = "julia's drawings"
 theme = "detox"
 languageCode = "en-us"
