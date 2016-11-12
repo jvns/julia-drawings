@@ -752,20 +752,20 @@ hr {
 }
 #site-header {
     text-align: center;
-    min-height: 15em;
-    padding-top: 7em;
-    margin-bottom: 9em
+    min-height: 6em;
+    padding-top: 1em;
+    margin-bottom: 1em
 }
 @media (max-width: 800px) {
     #site-header {
-        padding-top: 4em !important;
-        margin-bottom: 4em !important
+        padding-top: 1em !important;
+        margin-bottom: 1em !important
     }
 }
 .blog-title {
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 50px
+    font-size: 4em;
 }
 .blog-description {
     text-transform: uppercase;
