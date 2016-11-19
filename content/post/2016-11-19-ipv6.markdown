@@ -1,0 +1,14 @@
+---
+title: "IPv6"
+date: 2016-11-19T11:16:29Z
+url: /ipv6/
+thumbnail: /drawings/thumbnails/ipv6.png
+---
+
+A couple interesting links:
+
+* [IPv6 adoption by country](https://www.google.ca/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption&tab=per-country-ipv6-adoption)
+* [this IPv6 test](http://ipv6test.google.com/) will tell you if you're ready for the future of the internet
+* [a pretty good FAQ](http://www.internetsociety.org/ipv6-frequently-asked-questions)
+
+<a href='/drawings/ipv6.svg'><img src='/drawings/ipv6.png'></a>
