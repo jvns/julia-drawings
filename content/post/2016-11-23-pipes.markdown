@@ -1,0 +1,7 @@
+---
+title: "Pipes"
+date: 2016-11-23T23:34:06Z
+url: /pipes/
+thumbnail: /drawings/thumbnails/pipes.png
+---
+<a href='/drawings/pipes.svg'><img src='/drawings/pipes.png'></a>
