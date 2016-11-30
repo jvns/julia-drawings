@@ -1,0 +1,7 @@
+---
+title: "Assembly"
+date: 2016-11-29T21:25:13Z
+url: /assembly/
+thumbnail: /drawings/thumbnails/assembly.png
+---
+<a href='/drawings/assembly.svg'><img src='/drawings/assembly.png'></a>

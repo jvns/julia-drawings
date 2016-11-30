@@ -1,0 +1,7 @@
+---
+title: "Mutexes"
+date: 2016-11-29T21:25:07Z
+url: /mutexes/
+thumbnail: /drawings/thumbnails/mutexes.png
+---
+<a href='/drawings/mutexes.svg'><img src='/drawings/mutexes.png'></a>
