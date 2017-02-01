@@ -1,0 +1,7 @@
+---
+title: "libc"
+date: 2017-02-01T00:00:45Z
+url: /libc/
+thumbnail: /drawings/thumbnails/libc.png
+---
+<a href='/drawings/libc.svg'><img src='/drawings/libc.png'></a>
