@@ -1,0 +1,11 @@
+---
+title: "CSRF"
+date: 2017-02-01T00:03:54Z
+url: /csrf/
+thumbnail: /drawings/thumbnails/csrf.png
+---
+
+This one isn't awesome but I thought I'd post it anyway. Maybe I will
+make a better one later.
+
+<a href='/drawings/csrf.svg'><img src='/drawings/csrf.png'></a>
