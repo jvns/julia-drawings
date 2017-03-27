@@ -1,0 +1,7 @@
+---
+title: "Bash tips"
+date: 2017-03-26T23:59:05Z
+url: /bashtips/
+thumbnail: /drawings/thumbnails/bashtips.png
+---
+<a href='/drawings/bashtips.svg'><img src='/drawings/bashtips.png'></a>
