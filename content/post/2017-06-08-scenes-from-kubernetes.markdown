@@ -1,7 +1,7 @@
 ---
 title: "Scenes from Kubernetes"
 date: 2017-06-08T00:00:08Z
-url: /scenes-from-kubernetes-page1/
+url: /scenes-from-kubernetes/
 thumbnail: /drawings/thumbnails/scenes-from-kubernetes-page1.png
 ---
 
