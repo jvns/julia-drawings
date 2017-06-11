@@ -1,0 +1,7 @@
+---
+title: "ACID"
+date: 2017-06-11T10:31:06Z
+url: /acid/
+thumbnail: /drawings/thumbnails/acid.png
+---
+<a href='/drawings/acid.svg'><img src='/drawings/acid.png'></a>
