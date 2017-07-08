@@ -1,5 +1,5 @@
 ---
-title: "Linux tracing tools &amp; how they fit together"
+title: "Linux tracing tools & how they fit together"
 date: 2017-07-08T00:53:30Z
 url: /linux-tracing-tools/
 ---
