@@ -1,5 +1,5 @@
 ---
-title: "Scenes from distributed systems"
+title: "Distributed systems"
 date: 2016-11-12T12:30:09Z
 url: /distributed-systems/
 thumbnail: /drawings/thumbnails/distributed-systems.png

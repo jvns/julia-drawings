@@ -976,13 +976,6 @@ article.li {
     display: block;
 }
 
-.drawings .img img {
-    max-height: 120px;
-    max-width: 100%;
-    display: block;
-    padding-top: 10px;
-}
-
 .drawings .desc {
     padding: 15px;
     text-align: center;
