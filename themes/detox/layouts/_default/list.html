@@ -11,17 +11,21 @@
 
 {{ partial "header.html" . }}
 <main class="content" role="main">
-	<div class="container">
-	<p>
-Hello! I'm Julia. I blog at <a class="normallink" href="https://jvns.ca">jvns.ca</a>. Here are some drawings about programming I've made. There's an <a href="https://drawings.jvns.ca/index.xml" class="normallink">RSS feed</a>
+<div class="container">
+    <p>
+    Hello! I'm Julia. I blog at <a class="normallink" href="https://jvns.ca">jvns.ca</a>. Here are
+    some drawings about programming I've made. There's an <a href="https://drawings.jvns.ca/index.xml" class="normallink">RSS feed</a>.
+    </p>
 
-<p>I've written a couple of programming zines which you can find at <a class="normallink" href="https://jvns.ca/zines">jvns.ca/zines</a>.
-</p>
+    <p>I've written a couple of programming zines which you can find at <a class="normallink" href="https://jvns.ca/zines">jvns.ca/zines</a>.
+    </p>
 
-	{{ range .Data.Pages }}
-		{{ .Render "li" }}
-	{{ end }}
-	</div>
+    <div class="drawings">
+        {{ range .Data.Pages }}
+        {{ .Render "li" }}
+        {{ end }}
+    </div>
+</div>
 </main>
 {{ partial "footer.html" . }}
 {{ partial "google_analytics.html" . }}

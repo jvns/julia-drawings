@@ -1,7 +1,8 @@
 ---
-title: "Linux tracing tools & how they fit together"
+title: "Linux tracing tools"
 date: 2017-07-08T00:53:30Z
 url: /linux-tracing-tools/
+thumbnail: /drawings/thumbnails/linux-tracing.png
 ---
 
 here are 6 images for a blog post I'm writing:

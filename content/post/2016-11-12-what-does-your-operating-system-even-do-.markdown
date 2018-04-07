@@ -1,5 +1,5 @@
 ---
-title: "What does your operating system even do?"
+title: "What does your OS even do?"
 date: 2016-11-12T12:14:18Z
 url: /os-responsibilities/
 thumbnail: /drawings/thumbnails/os-responsibilities.png

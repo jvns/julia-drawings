@@ -3,7 +3,7 @@ set -x
 set -e
 NAME=$1
 cd static/drawings
-#pdf2svg  ~/work/zine-dropbox/Dropbox/linux-drawings/$NAME.pdf $NAME.svg
-pdf2svg  ~/Downloads/$NAME.pdf $NAME.svg
+pdf2svg  ~/work/zine-dropbox/Dropbox/linux-drawings/$NAME.pdf $NAME.svg
+#pdf2svg  ~/Downloads/$NAME.pdf $NAME.svg
 convert -density 150 $NAME.svg $NAME.png
 gimp $NAME.png

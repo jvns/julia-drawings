@@ -1,10 +1,8 @@
 <article class="li {{ .Type }}">
 
-	<div class="img">
-	  <a href="{{.Permalink}}">
-	    <img src="{{.Params.thumbnail}}" alt="{{.Title}}" width="300" height="200">
-	  </a>
-	  <div class="desc">{{ .Title }}</div>
-	</div>
+    <a class="img" href="{{.Permalink}}">
+	  <span class="desc">{{ .Title }}</span>
+      <img src="{{.Params.thumbnail}}" alt="{{.Title}}" width="300" height="200">
+	</a>
 
 </article>
