@@ -62,9 +62,9 @@ task :new_post, :title do |t, args|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%dT%H:%M:%SZ')}"
     post.puts "url: /#{image_file}/"
-    post.puts "thumbnail: /drawings/thumbnails/#{image_file}.png"
+    post.puts "thumbnail: /drawings/thumbnails/#{image_file}.jpeg"
     post.puts "---"
-    post.puts "<a href='/drawings/#{image_file}.svg'><img src='/drawings/#{image_file}.png'></a>"
+    post.puts "<a href='/drawings/#{image_file}.jpeg'><img src='/drawings/#{image_file}.jpeg'></a>"
   end
 end
 

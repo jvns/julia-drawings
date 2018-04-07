@@ -1,7 +1,7 @@
 ---
 title: "/proc"
-date: 2016-11-12T12:07:24Z
+date: 2018-04-07T12:07:24Z
 url: /proc/
-thumbnail: /drawings/thumbnails/proc.png
+thumbnail: /drawings/thumbnails/proc.jpeg
 ---
-<a href='/drawings/proc.svg'><img src='/drawings/proc.png'></a>
+<a href='/drawings/proc.jpeg'><img src='/drawings/proc.jpeg'></a>

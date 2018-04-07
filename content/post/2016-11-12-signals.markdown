@@ -1,7 +1,7 @@
 ---
 title: "Signals"
-date: 2016-11-12T12:06:00Z
+date: 2018-04-07T12:06:00Z
 url: /signals/
-thumbnail: /drawings/thumbnails/signals.png
+thumbnail: /drawings/thumbnails/signals.jpeg
 ---
-<a href='/drawings/signals.svg'><img src='/drawings/signals.png'></a>
+<a href='/drawings/signals.jpeg'><img src='/drawings/signals.jpeg'></a>

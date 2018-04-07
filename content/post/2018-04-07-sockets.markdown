@@ -1,0 +1,7 @@
+---
+title: "Sockets"
+date: 2018-04-07T11:47:23Z
+url: /sockets/
+thumbnail: /drawings/thumbnails/sockets.jpeg
+---
+<a href='/drawings/sockets.jpeg'><img src='/drawings/sockets.jpeg'></a>

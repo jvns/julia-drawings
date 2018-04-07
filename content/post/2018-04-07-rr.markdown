@@ -1,0 +1,7 @@
+---
+title: "rr: time travelling debugger"
+date: 2018-04-07T11:41:55Z
+url: /rr.jpeg/
+thumbnail: /drawings/thumbnails/rr.jpeg
+---
+<a href='/drawings/rr.jpeg'><img src='/drawings/rr.jpeg'></a>
